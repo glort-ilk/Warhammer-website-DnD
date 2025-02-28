@@ -1,0 +1,144 @@
+﻿Warhammer 40K D&D Starter Campaign
+Act 1: "The Siege of Aegis Prime"
+Theme: A brutal frontline battle against a Chaos invasion.
+Tone: Fast-paced, action-heavy, and full of war-torn heroism.
+Game Style: Military operation, defense missions, and high-stakes combat.
+Campaign Overview
+The players are elite operatives of the Imperium of Man, assigned to the Aegis Prime Fortress, a critical planetary stronghold currently under siege by Chaos forces. The fortress is the last line of defense before the enemy reaches a vital forge world.
+Your mission is simple: hold the line at all costs.
+________________
+
+
+Act 1: "The Storm Begins"
+Opening Scene:
+* The players arrive at Aegis Prime, a war-torn fortress world.
+* The fortress is already under heavy assault by Chaos Cultists and Traitor Guardsmen.
+* Commander Thalassa Vorn briefs the squad: "We are the last wall between the enemy and total planetary annihilation. You are here to ensure we do not fall."
+* Players are immediately deployed to reinforce the outer defenses.
+Mission 1: "Hold the Gate" (Massive Combat Battle)
+* Chaos forces launch a direct assault on the fortress gates.
+* Players must hold key defensive positions, operate heavy weapon emplacements, and fight waves of enemies.
+* Enemies: Cultists, Chaos Space Marines, Possessed soldiers.
+* Twist: A Hellbrute (mutated Chaos Dreadnought) smashes through the walls. The players must find explosives or heavy weapons to bring it down.
+🎯 Victory: The gates hold, but the fortress takes heavy damage.
+💀 Failure: The outer walls are breached, and the players must fall back inside the fortress.
+________________
+
+
+Act 2: "The Black Tide"
+Fortress Interior Defense
+* Chaos infiltrators have breached the lower levels, cutting power and communications.
+* Commander Vorn orders the players to clear the lower decks and restore control.
+Mission 2: "Purge the Infestation" (Close-Quarters Combat)
+* Tight corridors, low light, smoke everywhere.
+* Enemies: Mutated Chaos cultists, rogue servitors, and a corrupted psyker who warps reality.
+* Objective: Restore power to the fortress and eliminate all threats.
+* Twist: The Warp influence is growing—some of the players may start hearing whispers or experiencing hallucinations.
+🎯 Victory: The power is restored, revealing a larger enemy force approaching.
+💀 Failure: The fortress remains vulnerable, leading to more enemy incursions.
+Mission 3: "Destroy the Chaos Beacon" (Sabotage & Explosion)
+* Chaos sorcerers have erected a Warp beacon outside the fortress, summoning reinforcements.
+* The players must sneak behind enemy lines, plant explosives, and destroy it.
+* Enemies: Chaos Marines, daemonspawn, and a Chaos Sorcerer who protects the beacon.
+* Twist: The beacon is shielded by dark energy—the players must either disrupt the ritual or take out the sorcerer first.
+🎯 Victory: The beacon is destroyed, weakening the enemy forces.
+💀 Failure: The Warp rift grows larger, summoning a greater daemon.
+________________
+
+
+Act 3: "The Final Stand"
+The Chaos fleet has arrived, and traitor forces launch their final assault on the fortress.
+* Massive battle sequence: Thousands of troops clash, titans duel in the distance, and the players must fight to survive.
+* Commander Vorn gives one last order: "Die well, warriors of the Emperor."
+* The players have a choice:
+   1. Hold the last line at the fortress gates.
+   2. Assassinate the enemy warlord leading the Chaos forces.
+   3. Activate the fortress self-destruct and escape before the enemy captures the planet.
+🎯 Victory: The players either defeat the enemy leader, escape the doomed fortress, or win the battle at great cost.
+💀 Failure: The planet falls to Chaos, and the players become part of the Imperium's tragic history.
+________________
+
+
+Additional Encounter Details
+Special Encounters to Add Variety
+1. "Supply Cache Under Fire" (Defensive Skirmish)
+* Players must defend an Imperial supply drop as enemy forces attempt to seize it.
+* Twist: The supply cache contains experimental weapons, but activating them is risky.
+* Victory: Players gain access to powerful temporary weaponry.
+* Failure: Supplies are lost, and the squad must ration their remaining gear.
+2. "Traitor in the Ranks" (Social Deduction & Combat)
+* A loyalist squad has turned traitor and must be found before they strike.
+* Players must interrogate survivors and uncover the turncoats before they attempt sabotage.
+* Twist: One of the traitors is a Chaos psyker, hiding their true allegiance.
+* Victory: The traitors are purged before they can do harm.
+* Failure: They sabotage defenses, leaving the fortress vulnerable.
+3. "Warp Disturbance" (Psychic Horror Event)
+* A psychic rift opens in a critical part of the battlefield, unleashing Warp horrors.
+* Players must close the rift or risk losing control of the battlefield.
+* Twist: The rift empowers psykers, but at a terrible cost.
+* Victory: The rift is sealed, preventing further horrors from emerging.
+* Failure: Chaos reinforcements arrive through the rift.
+________________
+
+
+Enemy Types (For Simplified Encounters)
+Basic Enemies (Easy)
+* Chaos Cultists (Weak but numerous)
+* Traitor Guardsmen (Standard enemies with basic tactics)
+* Mutated Servitors (Slow but powerful melee threats)
+Elite Enemies (Medium)
+* Chaos Marines (Tough armor, deadly bolters)
+* Psyker Thralls (Psychic powers, warp-based attacks)
+* Possessed Soldiers (Flesh-warped mutants, fast and brutal)
+Boss Enemies (Hard)
+* Hellbrute (Mini-boss, massive damage dealer)
+* Chaos Sorcerer (Summons daemons, casts Warp spells)
+* Greater Daemon (Final boss, towering nightmare of death)
+________________
+
+
+Pre-Made NPC Sheets
+Commander Thalassa Vorn (Imperial Officer – Stoic Leader)
+* Role: Tactical leader of Aegis Prime
+* Personality: Pragmatic, disciplined, refuses to retreat.
+* Strengths: Strategic mind, inspiring presence, veteran of multiple sieges.
+* Weaknesses: Inflexible, willing to sacrifice lives for victory.
+Sergeant Keldran Thorne (Imperial Stormtrooper – Brutal Veteran)
+* Role: Leader of an elite stormtrooper unit.
+* Personality: Loyal to the Imperium, but ruthless in execution.
+* Strengths: Close-quarters combat, demolitions expert.
+* Weaknesses: Harsh leadership style, not well-liked by lower-ranked troops.
+Enginseer Valen-72 (Tech-Priest – Mechanicus Specialist)
+* Role: Keeps fortress technology operational.
+* Personality: Cold and logical, obsessed with the Machine Spirit.
+* Strengths: Hacking, repairs, knowledge of Mechanicus relics.
+* Weaknesses: Struggles to relate to human emotions, may prioritize tech over people.
+Astropath Illya Keth (Psyker – Haunted Seer)
+* Role: Handles long-range communications and psychic warnings.
+* Personality: Shaken by Warp visions, wary of those around her.
+* Strengths: Precognitive abilities, able to detect Warp disturbances.
+* Weaknesses: Prone to Warp-induced migraines, cryptic in her warnings.
+Chaos Sorcerer Malakar the Defiled (Primary Antagonist – Chaos Champion)
+* Role: Leads the Chaos invasion, the mastermind behind the Warp Beacon.
+* Personality: Arrogant, power-hungry, driven by dark prophecies.
+* Strengths: Dark sorcery, summoning daemons, mind control.
+* Weaknesses: Overconfident, vulnerable if caught off guard.
+Stat Block:
+* Armor Class: 18 (Warp-infused armor)
+* Hit Points: 200 (17d10+85)
+* Speed: 30 ft.
+* STR: 14 (+2), DEX: 16 (+3), CON: 20 (+5), INT: 18 (+4), WIS: 14 (+2), CHA: 22 (+6)
+* Saving Throws: INT +8, WIS +6, CHA +10
+* Damage Resistances: Psychic, Fire, Necrotic
+* Damage Immunities: Poison
+* Condition Immunities: Charmed, Frightened, Poisoned
+* Senses: Darkvision 120 ft., Passive Perception 15
+* Languages: Low Gothic, Dark Tongue, Telepathy 60 ft.
+Abilities:
+* Dark Prophecy: Knows enemy movements in advance, giving advantage on initiative rolls.
+* Summon Daemon: Malakar can summon 2d4 Bloodletters or 1 Greater Daemon once per day.
+* Warp Reality: As a legendary action, Malakar can shift reality, imposing disadvantage on attacks against him for 1 round.
+* Mind Control (Recharge 5-6): A creature within 60 ft. must succeed on a DC 18 Wisdom save or be controlled for 1 minute.
+Actions:
+* Eldritch Blast (Multiattack): +10 to hit, 3 attacks, 2d10 force damage each.
+* Soul Drain: Target makes a DC 18 Con save or takes 6d8 necrotic damage, healing Malakar for half the damage dealt.
