@@ -1,0 +1,553 @@
+html {
+	scroll-behavior: smooth;
+}
+:root {
+	--nc-font-sans: 'Noto Sans', sans-serif; /*leturgerð sótt af fonts.google.com */
+	/*--nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
+
+	/* Light theme */
+	--nc-tx-1: #000000;	/* H1-H6 */
+	--nc-tx-2: #1A1A1A;	/* Body text */
+	--nc-bg-1: #FFFFFF; 	/* Bakgrunnur 1 */
+	--nc-bg-2: #F6F8FA;	/* Bakgrunnur 2 */
+	--nc-bg-3: #E5E7EB;	/* Bakgrunnur 3 (border line form, ofl)*/
+	--nc-lk-1: #3ac8c9;	/* A tengill (link) */
+	--nc-lk-2: #32aeae;	/* A tengill (hover) */
+	--nc-lk-tx: #FFFFFF;	/* Button + input type */
+	--nc-ac-1: #79FFE1;	/* Bakgrunnur selection + mark */
+    --nc-bg-3: #6a6a6a;	    /* Bakgrunnur 3 (Darkmode toggle)*/
+    --nc-bg-4: #444444;	/* Bakgrunnur 4 (Statblock)*/
+	--nc-ac-tx: #0C4047;	/* Selection + mark*/
+	--nc-tc-r: #ff4e6a;   /* Rauði liturinn (theme color red)*/
+	--nc-tc-y: #ffdd55;   /* Guli liturinn (theme color yellow)*/
+	--nc-tc-o: #feb585; /* bright apðel liturinn (theme color bright orange)*/
+	--nc-tc-b: #3ac8c9;   /* Blái liturinn (theme color blue)*/
+	--nc-tc-g: #08d184;   /* Græni liturinn (theme color green)*/
+	--nc-tc-c: #20e78a;	/*Bright greenish cyan (theme color cyan*/
+	--trans50-bg: rgba(58, 200, 201, 0.5);
+	--trans50-bg-2: rgba(58, 200, 201, 0.75);
+
+
+	/* Dark theme */
+	--nc-d-tx-1: #ffffff;
+	--nc-d-tx-2: #eeeeee;
+	--nc-d-bg-1: #000000;
+	--nc-d-bg-2: #111111;
+	--nc-d-bg-3: #222222;
+	--nc-d-lk-1: #32aeae;	
+	--nc-d-lk-2: #3ac8c9;
+	--nc-d-lk-tx: #FFFFFF;
+	--nc-d-ac-1: #7928CA;
+	--nc-d-ac-tx: #FFFFFF;
+	--nc-d-tc-r: #b4384b;   /* Rauði liturinn (theme color red)*/
+	--nc-d-tc-y: #c3a942;   /* Guli liturinn (theme color yellow)*/
+	--nc-d-tc-o: #c88e68; /* bright appel liturinn (theme color bright orange)*/
+	--nc-d-tc-b: #2b9191;   /* Blái liturinn (theme color blue)*/
+	--nc-d-tc-g: #07905b;   /* Græni liturinn (theme color green)*/
+	--nc-d-tc-c: #1bc274;	/*Bright greenish cyan (theme color cyan*/
+	--trans50-d-bg: rgba(50, 174, 174, 0.5);
+	--trans50-d-bg-2: rgba(50, 174, 174, 0.6);
+    --nc-bg-d-3: #555;	    /* Bakgrunnur 3 (Darkmode toggle)*/
+    --nc-bg-d-4: #2a2a2a;	/* Bakgrunnur 4 (Statblock)*/
+
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--nc-tx-1: var(--nc-d-tx-1);
+		--nc-tx-2: var(--nc-d-tx-2);
+		--nc-bg-1: var(--nc-d-bg-1);
+		--nc-bg-2: var(--nc-d-bg-2);
+		--nc-bg-3: var(--nc-d-bg-3);
+		--nc-lk-1: var(--nc-d-lk-1);
+		--nc-lk-2: var(--nc-d-lk-2);
+		--nc-lk-tx: var(--nc--dlk-tx);
+		--nc-ac-1: var(--nc-d-ac-1);
+		--nc-ac-tx: var(--nc--dac-tx);
+		--nc-tc-r: var(--nc-d-tc-r);
+		--nc-tc-y: var(--nc-d-tc-y);
+		--nc-tc-o: var(--nc-d-tc-o);
+		--nc-tc-b: var(--nc-d-tc-b);
+		--nc-tc-g: var(--nc-d-tc-g);
+		--nc-tc-c: var(--nc-d-tc-c);
+        --nc-bg-tc-b: var(--nc-bg-d-3);
+		--trans50-bg: var(--trans50-d-bg);
+		--trans50-bg-2: var(--trans50-d-bg-2);
+	}
+}
+
+
+/* Default (Light Mode) */
+body {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+    transition: background 0.5s, color 0.5s;
+}
+
+
+header {
+    text-align: center;
+    font-size: 4rem;
+}
+
+audio {
+    display: none;
+}
+
+/*****************Column*****************/
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.col-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.enemy-container {
+    grid-template-columns: 1 1 1;
+}
+
+.col-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+@media screen and (min-width: 48rem) {
+    .container {
+        padding: 0 1rem;
+    }
+    .col-2,
+    .col-4,
+    .col-6 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .col-3 {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+    .col-2,
+    .col-3 {
+        gap: 2rem;
+    }
+    .col-4 {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+    .col-5 {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2rem;
+    }
+    .col-6 {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    .container {
+        max-width: 80rem;
+        margin: auto;
+    }
+}
+
+/* Additional Fixes for Smaller Screens */
+@media screen and (max-width: 47.99rem) {
+    .container {
+        padding: 0.5rem;
+    }
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .theme-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dice-panel {
+        width: 90%;
+        left: 5%;
+    }
+    .enemy-card {
+        width: 100%;
+        margin: autos;
+        max-width: 300px;
+    }
+}
+
+/****************Stat-Blocks*****************/
+    /* Responsive NPC Sheets */
+    .Character-Profiles details {
+        max-width: 600px;
+    }
+
+    .Character-Profiles{
+        text-align: center;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .Character-Profiles summary {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        background: var(--nc-bg-4);
+        border-radius: 5px;
+        cursor: pointer;
+        color: var(--theme-highlight);
+    }
+
+    .Character-Profiles details[open] {
+        padding-bottom: 1rem;
+    }
+
+    .stat-block {
+        max-width: 500px;
+        margin: auto;
+        background: var(--nc-bg-4);
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+
+    .stat-block h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .stat-block p, .stat-block table {
+        font-size: 0.9rem;
+    }
+
+    /* Responsive Tables */
+    .stats-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .stats-table th, .stats-table td {
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 400px) {
+        .stats-table th, .stats-table td {
+            font-size: 0.8rem;
+            padding: 0.3rem;
+        }
+    }
+
+ 
+
+
+
+
+/* Default (Imperium) Theme */
+:root {
+    --theme-bg: #1b1f22;
+    --theme-text: #f0e68c;
+    --theme-highlight: #c2b280;
+    --theme-button: #f5f5dc;
+    --theme-card: rgba(32, 32, 32, 0.9);
+}
+
+.theme-chaos {
+    --theme-bg: #2c001e;
+    --theme-text: #ff4e6a;
+    --theme-highlight: #d80000;
+    --theme-button: #8b0000;
+    --theme-card: rgba(44, 0, 30, 0.85);
+}
+
+/* Apply theme styles */
+body {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+    transition: background 0.5s, color 0.5s;
+}
+
+.enemy-card {
+    background-color: var(--theme-card);
+    box-shadow: 0 4px 8px var(--theme-highlight);
+    margin: 1rem;
+}
+
+.enemy-card h3 {
+    color: var(--theme-highlight);
+}
+
+.theme-toggle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.theme-toggle button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: var(--theme-button);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.theme-toggle button:hover {
+    background-color: var(--theme-highlight);
+}
+
+/****************Character-Profiles*****************/
+
+
+.enemy-card {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.enemy-card:hover {
+    transform: scale(1.05);
+}
+
+.enemy-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.enemy-card h3 {
+    margin: 10px 0;
+    color: #e74c3c;
+}
+
+.enemy-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.enemy-card a {
+    display: block;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.enemy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.enemy-card:hover {
+    transform: scale(1.05);
+}
+
+h1, h2 {
+    color: #f4c542;
+}
+
+details {
+    background: #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: var(--text-dark);
+}
+summary {
+    font-weight: bold;
+    color: #f4c542;
+}
+
+
+
+/******************Overview*********************/
+.Overview {
+    max-height: 300px;
+    border: 1px solid #000;
+    margin: 2.75rem;
+    color: var(--text-dark);
+    background: var(--nc-bg-4);
+}
+
+.center {
+    text-align: center;
+}
+/******************Top-Menu*********************/
+#toggle {
+    display: none;
+}
+
+.topnav {
+    margin: 0;
+}
+
+.topmenu {
+    background-color: var(--nc-tc-b);
+    display: flex;
+    flex-flow: column; 
+    margin: 0;
+    position: fixed;
+    top: 4.5rem;
+    right: -60rem;
+    z-index: 9;
+    transition: all 1s ease;
+}
+
+.topmenu a {
+    display: block;
+    text-align: center;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: var(--nc-tc-y);
+    border-bottom: 1px solid var(--nc-tc-c);
+}
+
+.topmenu a:hover {
+    color: var(--nc-tc-o);
+}
+.topmenu section {
+    margin: 0;
+}
+.menubutton {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menubutton:hover {
+    background-color: var(--nc-tc-b);
+}
+.menubutton:active {
+    background-color: rgb(34, 180, 180);
+}
+
+.socialbutts {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.menubutton {
+    position: fixed;
+    top: 3rem;
+    right: .5rem;
+    padding: 0 0.3rem;
+    font-size: 1.5rem;
+    border: 1.5px solid var(--nc-tc-b);
+    border-radius: .3rem;
+}
+
+.socialbutts a {
+    padding: .5rem 1rem;
+    border: 0;
+}
+#toggle:checked ~ .topmenu { 
+    right: 3rem;
+    transition: all 0.5s ease;
+}
+
+
+
+table {
+	/* border-collapse sets the table's elements to share borders, rather than floating as separate "boxes". */
+	border-collapse: collapse;
+	width: 100%;
+    margin-top: 1rem;
+}
+
+button {
+    background: #f4c542;
+}
+
+button,
+a {
+    text-decoration: none;
+}
+
+td,
+th {
+	border: 1px solid var(--nc-bg-3);
+	text-align: left;
+	padding: .5rem;
+}
+
+th {
+	background: var(--nc-bg-3);
+}
+
+tr:nth-child(even) {
+	/* Set every other cell slightly darker. Improves readability. */
+	background: var(--nc-bg-3);
+}
+tr:nth-child(odd) {
+	/* Set every other cell slightly lighter. Improves readability. */
+	background: var(--nc-bg-4);
+}
+table caption {
+	font-weight: bold;
+	margin-bottom: 1rem 0 .5rem 0;
+}
+
+textarea {
+	/* Don't let the <textarea> extend off the screen naturally or when dragged by the user */
+	max-width: 100%;
+}
+
+@media screen and (max-width:600px){
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        /* border-bottom: 3px solid white; */
+        display: block;
+    }
+    table td {
+        /* border-bottom: 1px solid white; */
+        display: block;
+        text-align: right;
+    }
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 600;
+    }
+    tfoot td {
+        clear: both;
+        width: 100%;
+    }
+}
+
